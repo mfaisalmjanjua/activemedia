@@ -1,0 +1,16 @@
+<div *ngFor="let ind of items">
+  <a [routerLink]="['/detail', ind.id]">
+    <div
+      class="node"
+      [ngClass]="ind.color"
+      [style]="{ top: ind.top, left: ind.left }"
+    >
+      <div class="dot">
+        <div class="fill"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="name">{{ ind.name }}</div>
+      <div class="handle">{{ ind.handle }}</div>
+    </div>
+  </a>
+</div>
