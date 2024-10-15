@@ -6,6 +6,9 @@
     padding: 0px;
     box-sizing: border-box;
   }
+  html, body{
+    height: 100%;
+  }
   body {
     display: flex;
     align-items: center;
@@ -120,25 +123,10 @@
   
   .detailWrapper {
     width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-  
-    .main {
-      margin: 100px;
-      height: calc(100% - 200px);
-      width: calc(100% - 200px);
-      border-radius: 50px;
-      background: rgba(255, 255, 255, 0.2);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      padding: 100px 50px;
-      display: flex;
-      flex-direction: column;
-    }
+    // flex: 1;
+    display: flex; 
+    background-color: aqua;
+
   }
   
   .title {
@@ -148,37 +136,14 @@
   }
   .handle {
     color: #ffffff;
-    font-size: 8vw;
-    // font-size: clamp( 7rem, 7vw, 80vh)   
+    font-size: 7.15vw;
   }
   
   .stat {
     display: flex;
     align-items: stretch;
     height: 100%;
-    ul {
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      margin: 50px 0;
-    }
-    li {
-      margin: 5%;
-      // background-color: lightblue;
-      list-style: none;
-      width: 40%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-size: 8vw;
-      font-weight: bold;
-      label {
-        font-size: 3vw;
-        color: #ffffff;
-      }
-    }
+    
   }
   
   .videoCont {
@@ -244,27 +209,9 @@
     background-color: #ccc;
   }
   
-  .back{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
   
-  .home{
-    border-radius: 100%;
-    // height: 100px;
-    // width: 100px;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
+  
   
   
   .box{

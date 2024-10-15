@@ -1,0 +1,96 @@
+.main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  .profileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    .inner {
+      display: flex;
+      flex: 1;
+      width: 95%;
+      margin: 50px;
+      border-radius: 50px;
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 70px 70px;
+      flex-direction: column;
+      .top {
+      }
+      .mid {
+        display: flex;
+        flex: 2;
+        padding: 20px;
+        ul {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 50px 0;
+        }
+        li {
+          margin: 5%;
+          // background-color: lightblue;
+          list-style: none;
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 8vw;
+          font-weight: bold;
+          label {
+            font-size: 3vw;
+            color: #ffffff;
+            font-weight: normal;
+          }
+        }
+      }
+      .bottom {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        img {
+          margin: 10px 25px;
+        }
+      }
+    }
+  }
+
+  .backHome {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background: pink;
+
+    .icon {
+      height: 90px;
+      width: 90px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 100%;
+      box-shadow: 0 4px 10px rgba(243, 1, 1, 0.2);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      > img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

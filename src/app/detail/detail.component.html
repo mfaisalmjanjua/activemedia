@@ -1,50 +1,57 @@
-<div class="detailWrapper">
-  <div class="main">
-    <h2 class="handle">{{ item.handle }}</h2>
-    <h5 class="title">{{ item.name }}</h5>
-    <div class="stat">
-      <ul>
-        <li class="red">
-          {{ item.video }}
-          <label>Video Views</label>
-        </li>
-        <li class="blue">
-          {{ item.likes }}
-          <label>Likes</label>
-        </li>
-        <li class="blue">
-          {{ item.posts }}
-          <label>Total Posts</label>
-        </li>
-        <li class="red">
-          {{ item.comments }}
-          <label>Comments</label>
-        </li>
-        <li class="red">
-          {{ item.followers }}
-          <label>Followers</label>
-        </li>
-        <li class="blue">
-          {{ item.share }}
-          <label>Shares{{ item.share }}</label>
-        </li>
-      </ul>
-    </div>
-    <div class="videoCont">
-      <img [src]="item.thmb1" (click)="showPopup(item.vdo1)" />
-      <img [src]="item.thmb2" (click)="showPopup(item.vdo1)" />
-      <!-- Assuming 1 is the index of the second video -->
+<div class="main">
+  <!-- profile data -->
+  <div class="profileWrapper">
+    <div class="inner">
+      <div class="top">
+        <h2 class="handle">{{ item.handles }}</h2>
+        <h5 class="title">{{ item.name }}</h5>
+      </div>
+      <div class="mid">
+        <ul>
+          <li class="red">
+            {{ item.views }}
+            <label>Video Views</label>
+          </li>
+          <li class="blue">
+            {{ item.likes }}
+            <label>Likes</label>
+          </li>
+          <li class="blue">
+            {{ item.posts }}
+            <label>Total Posts</label>
+          </li>
+          <li class="red">
+            {{ item.comments }}
+            <label>Comments</label>
+          </li>
+          <li class="red">
+            {{ item.followers }}
+            <label>Followers</label>
+          </li>
+          <li class="blue">
+            {{ item.shares }}
+            <label>Shares{{ item.share }}</label>
+          </li>
+        </ul>
+      </div>
+      <div class="bottom">
+        <img [src]="item.thmb1" (click)="showPopup(item.vdo1)" />
+        <img [src]="item.thmb2" (click)="showPopup(item.vdo1)" />
+      </div>
     </div>
   </div>
+  <!-- profile data -->
+
+  <!-- home button -->
+  <div class="backHome">
+    <a class="icon" [routerLink]="['/']">
+      <img src="./assets/home.png" />
+    </a>
+  </div>
+  <!-- home button end -->
 </div>
 
-<div class="back">
-  <a class="home" [routerLink]="['/']">
-    <img src="./assets/home.png" style="width: 150px" />
-  </a>
-</div>
-
-<!-- Video Modal -->
+<!-- popup video -->
 <div
   *ngIf="isPopupOpen"
   class="modal"
@@ -57,10 +64,4 @@
     <button class="close-button" (click)="hidePopup()">x</button>
   </div>
 </div>
-<!-- <div *ngIf="videoUrl" class="popover">
-    <video controls autoplay>
-      <source [src]="videoUrl" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <button (click)="videoUrl = null">Close</button>
-  </div> -->
+<!-- popup video end -->
