@@ -22,9 +22,25 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "/**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2|mp4)"
         ]
       }
     }
-  ]
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "urls": [
+        "./app/shared/data.service.ts"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "1h",
+        "timeout": "5s",
+        "strategy": "freshness"
+      }
+    }
+  ],
+  "display": "standalone",
+  "start_url": "/"
 }

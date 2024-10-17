@@ -1,9 +1,9 @@
 {
-  "name": "Active Media",
-  "short_name": "activemedia",
+  "name": "Tiktok",
+  "short_name": "tiktok",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "standalone",
+  "display": "full",
   "scope": "./",
   "start_url": "./",
   "icons": [
