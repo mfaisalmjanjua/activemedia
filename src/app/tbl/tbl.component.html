@@ -1,0 +1,21 @@
+<div class="initial">
+  <img src="./assets/am.png" />
+
+  <select
+    class="form-select form-select-lg mb-3"
+    aria-label="Default select example"
+    #tbl
+    (change)="onSelectTablet(tbl.value)"
+  >
+    <option value="">Select</option>
+    <option value="tab1">Tablet 01</option>
+    <option value="tab2">Tablet 02</option>
+    <option value="tab3">Tablet 03</option>
+    <option value="tab4">Tablet 04</option>
+    <option value="tab5">Tablet 05</option>
+    <option value="tab6">Tablet 06</option>
+  </select>
+  <button type="button" class="btn btn-primary btn-lg" (click)="onSelect()">
+    Select Standee
+  </button>
+</div>

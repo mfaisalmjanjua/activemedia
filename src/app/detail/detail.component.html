@@ -1,3 +1,4 @@
+
 <div class="main">
   <!-- profile data -->
   <div class="profileWrapper">
@@ -36,7 +37,7 @@
       </div>
       <div class="bottom">
         <img [src]="item.thmb1" (click)="showPopup(item.vdo1)" />
-        <img [src]="item.thmb2" (click)="showPopup(item.vdo1)" />
+        <img [src]="item.thmb2" (click)="showPopup(item.vdo2)" />
       </div>
     </div>
   </div>
@@ -44,7 +45,7 @@
 
   <!-- home button -->
   <div class="backHome">
-    <a class="icon" [routerLink]="['/']">
+    <a class="icon" [routerLink]="['/home']">
       <img src="./assets/home.png" />
     </a>
   </div>
