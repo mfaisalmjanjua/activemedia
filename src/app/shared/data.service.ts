@@ -1507,8 +1507,8 @@ export class DataService {
       thmb2: './assets/v/dawn/2.png',
       vdo1: './assets/v/dawn/1.mp4',
       vdo2: './assets/v/dawn/2.mp4',
-      left: '48%',
-      top: '35%',
+      left: '63%',
+      top: '12%',
     },
     {
       id: 119,
@@ -1525,8 +1525,8 @@ export class DataService {
       thmb2: './assets/v/OlaDoc/2.png',
       vdo1: './assets/v/OlaDoc/1.mp4',
       vdo2: './assets/v/OlaDoc/2.mp4',
-      left: '68%',
-      top: '50%',
+      left: '26%',
+      top: '73%',
     },
     {
       id: 120,
