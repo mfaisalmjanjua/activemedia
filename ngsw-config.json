@@ -26,21 +26,5 @@
         ]
       }
     }
-  ],
-  "dataGroups": [
-    {
-      "name": "api",
-      "urls": [
-        "./app/shared/data.service.ts"
-      ],
-      "cacheConfig": {
-        "maxSize": 100,
-        "maxAge": "1h",
-        "timeout": "5s",
-        "strategy": "freshness"
-      }
-    }
-  ],
-  "display": "standalone",
-  "start_url": "/"
+  ]
 }

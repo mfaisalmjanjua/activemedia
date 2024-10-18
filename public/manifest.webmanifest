@@ -1,9 +1,9 @@
 {
   "name": "Tiktok",
-  "short_name": "tiktok",
+  "short_name": "Tiktok",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
-  "display": "full",
+  "display": "standalone",
   "scope": "./",
   "start_url": "./",
   "icons": [
