@@ -31,8 +31,8 @@ export class DataService {
       thmb2: './assets/v/Jannatmirza/2.png',
       vdo1: './assets/v/Jannatmirza/1.mp4',
       vdo2: './assets/v/Jannatmirza/2.mp4',
-      left: '8%',
-      top: '3%',
+      left: '10%',
+      top: '12%',
     },
     {
       id: 1,
@@ -49,8 +49,8 @@ export class DataService {
       thmb2: './assets/v/AliFayyaz/2.png',
       vdo1: './assets/v/AliFayyaz/1.mp4',
       vdo2: './assets/v/AliFayyaz/2.mp4',
-      left: '16%',
-      top: '12%',
+      left: '29%',
+      top: '86%',
     },
     {
       id: 131,
@@ -139,7 +139,7 @@ export class DataService {
       thmb2: './assets/v/AliRiaz/2.png',
       vdo1: './assets/v/AliRiaz/1.mp4',
       vdo2: './assets/v/AliRiaz/2.mp4',
-      left: '48%',
+      left: '63%',
       top: '35%',
     },
     {
@@ -1436,7 +1436,7 @@ export class DataService {
       thmb2: './assets/v/cokestudio/2.png',
       vdo1: './assets/v/cokestudio/1.mp4',
       vdo2: './assets/v/cokestudio/2.mp4',
-      left: '16%',
+      left: '37%',
       top: '30%',
     },
     {
@@ -1454,7 +1454,7 @@ export class DataService {
       thmb2: './assets/v/KhoosatFilms/2.png',
       vdo1: './assets/v/KhoosatFilms/1.mp4',
       vdo2: './assets/v/KhoosatFilms/2.mp4',
-      left: '48%',
+      left: '70%',
       top: '35%',
     },
     {
@@ -1508,8 +1508,8 @@ export class DataService {
       thmb2: './assets/v/city42/2.png',
       vdo1: './assets/v/city42/1.mp4',
       vdo2: './assets/v/city42/2.mp4',
-      left: '30%',
-      top: '20%',
+      left: '37%',
+      top: '4%',
     },
     {
       id: 117,
@@ -1544,8 +1544,8 @@ export class DataService {
       thmb2: './assets/v/OlaDoc/2.png',
       vdo1: './assets/v/OlaDoc/1.mp4',
       vdo2: './assets/v/OlaDoc/2.mp4',
-      left: '26%',
-      top: '73%',
+      left: '10%',
+      top: '10%',
     },
     {
       id: 120,
@@ -1634,8 +1634,8 @@ export class DataService {
       thmb2: './assets/v/DiscoverPakistan/2.png',
       vdo1: './assets/v/DiscoverPakistan/1.mp4',
       vdo2: './assets/v/DiscoverPakistan/2.mp4',
-      left: '8%',
-      top: '88%',
+      right: '4%',
+      top: '26%',
     },
     {
       id: 127,
