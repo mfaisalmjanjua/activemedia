@@ -1148,7 +1148,7 @@ export class DataService {
       vdo1: './assets/v/TheVoiceFactory/1.mp4',
       vdo2: './assets/v/TheVoiceFactory/2.mp4',
       left: '40%',
-      top: '92%',
+      top: '90%',
     },
     {
       id: 64,
@@ -1201,7 +1201,7 @@ export class DataService {
       thmb2: './assets/v/Umereee/2.png',
       vdo1: './assets/v/Umereee/1.mp4',
       vdo2: './assets/v/Umereee/2.mp4',
-      left: '60%',
+      left: '80%',
       top: '7%',
     },
     {
@@ -1255,7 +1255,7 @@ export class DataService {
       thmb2: './assets/v/ZunairaMahi/2.png',
       vdo1: './assets/v/ZunairaMahi/1.mp4',
       vdo2: './assets/v/ZunairaMahi/2.mp4',
-      left: '48%',
+      left: '70%',
       top: '35%',
     },
     {
@@ -1363,7 +1363,7 @@ export class DataService {
       thmb2: './assets/v/express/2.png',
       vdo1: './assets/v/express/1.mp4',
       vdo2: './assets/v/express/2.mp4',
-      left: '50%',
+      left: '20%',
       top: '56%',
     },
     {
